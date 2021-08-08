@@ -1,0 +1,80 @@
+//                  Class 06
+//                   Functions
+
+// Reusable Code
+// Set of Statements
+// First Create function outside void function
+// Then for output call it in the main function
+
+void main() {
+//  abc();                // without Parameters
+
+  // //////////////////////////////////////////////////////////////////////
+
+//   marks(85, 76,69);       // with parameters
+//   marks(78 ,87 ,99);      // FOR DIRECT PRINT
+//   marks(87,58,66);
+
+// //////////////////////////////////////////////////////////////////////
+
+//   print(marks(75, 86, 65, 87));   // FOR RETURN
+//   print(marks(59, 74, 77, 89));   // with parameters
+//   print(marks(67, 90, 63, 71));
+
+//  ////////////////////////////////////////////////////////////////////
+
+//   marks(89, 54); // FOR ARROW FUNCTION
+//   marks(79, 53);
+//   marks(50, 50);
+}
+
+//        WITHOUT PARAMETERS
+
+// dynamic abc (){       // dynamic function is for all datatypes
+//   print("Shahab 20 Male");
+//   var num1 = 10;
+//   var num2 = 15;
+//   var sum = num1 + num2 ;
+//   var subs = num1 - num2 ;
+//   var mul = num1 * num2;
+//   double div = num1 / num2;  // double for float value
+//   print(sum);
+//   print(subs);
+//   print(mul);
+//   print(div);
+// }
+// //////////////////////////////////////////////////////////////////////
+
+//          WITH PARAMETERS
+// datatype n names in function
+// values in calling function     // calling function = main funtion
+// can give values multiple time in single function
+// VOID doesnt supports print while using return, thats y using dynamic.
+// DYNAMIC Fucntion supports print while using return.
+// you can use direct print or return.
+
+// dynamic marks (var sub1, var sub2 , var sub3){          // FOR DIRECT PRINT
+//   var total = sub1 + sub2 + sub3;
+//   print(total);
+// }
+
+// ////////////////////////////////////////////////////////////////////////
+
+// dynamic marks(var sub1, var sub2, var sub3, var sub4) {  	// FOR RETURN
+//   var total = sub1 + sub2 + sub3 + sub4;
+//   return total; // for return , must use print in main function to print.
+// }
+
+////////////////////////////////////////////////////////////////////////
+
+//            ARROW FUNCTION
+
+// in main function use => instead of {}
+// For short syntax
+// cant call different functions
+// you can use direct print or return.
+
+// dynamic marks(var sub1, var sub2) {
+//   var total = sub1 + sub2;
+//   print(total);
+// }

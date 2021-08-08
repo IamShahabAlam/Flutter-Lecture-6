@@ -1,0 +1,92 @@
+//                          Class 06
+//                          CLASSES
+
+
+// Creating simple CLASS
+// Class name's first letter must be Capital
+
+// void main() {                       
+  
+//   var car1 = Car();
+//     car1.name = "Alto";
+//     car1.display();
+  
+//   var car2 = Car();
+//   car2.name = "Mehran";
+//   car2.display();
+// }
+
+// class Car {      
+//   var name = "";
+  
+//   dynamic display(){
+//     print("This Car name is ${name}");
+//   }
+// }
+
+//  /////////////////////////////////////////////////////////
+
+//                          CLASS INHERITANCE
+//                          Parent / Child 
+
+// Only Child can access the functions of its parent
+// Child cant access functions of another child (its brother's).
+// Parent cant access functions of its Child
+// A child cant have multiple parents
+// A child can be the parent of more child
+
+void main(){
+    
+  var obj = Shape();
+  obj.dis();                // calling its own function
+  
+  var obj1 = Circle();
+  obj1.dis();                // calling its parent's function
+  obj1.cir();                // calling its own function
+  
+  
+  var obj2 = Square();
+  obj2.dis();                // calling its parent's function
+  obj2.sq();                // calling its own function
+  
+  
+}
+
+
+class Shape{                                  // Parent Class
+  dynamic dis(){
+    print("The Shape (Parent Child) ");
+  }
+}
+
+class Circle extends Shape {                 // Child class
+  dynamic cir(){
+    print("The Circle (First child)");
+    print("__________________________");
+  }
+}
+
+class Square extends Shape{                  // Child class
+  dynamic sq(){
+    print("The Square (Second child)");
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
